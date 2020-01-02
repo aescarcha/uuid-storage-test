@@ -79,6 +79,34 @@ Numeric result: {
   batches: 50000,
   rows: 2500000 }
 
+
+Uuid result: {
+  total: 1620982,
+  avg: 32.41964,
+  batchSize: 100,
+  batches: 50000,
+  rows: 5000000 }
+Numeric result: { 
+  total: 214456,
+  avg: 4.28912,
+  batchSize: 100,
+  batches: 50000,
+  rows: 5000000 }
+
+
+Uuid result: { 
+  total: 1614770,
+  avg: 64.5908,
+  batchSize: 200,
+  batches: 25000,
+  rows: 5000000 }
+Numeric result: { 
+  total: 154715,
+  avg: 6.1886,
+  batchSize: 200,
+  batches: 25000,
+  rows: 5000000 }
+
 ```
 
 #### Mysql 8.0.18:
@@ -111,6 +139,31 @@ Numeric result: {
   batches: 50000,
   rows: 2500000 }
 
+Uuid result: { 
+  total: 959457,
+  avg: 19.18914,
+  batchSize: 100,
+  batches: 50000,
+  rows: 5000000 }
+Numeric result: { 
+  total: 407903,
+  avg: 8.15806,
+  batchSize: 100,
+  batches: 50000,
+  rows: 5000000 }
+
+Uuid result: {
+  total: 872368,
+  avg: 34.89472,
+  batchSize: 200,
+  batches: 25000,
+  rows: 5000000 }
+Numeric result: { 
+  total: 346356,
+  avg: 13.85424,
+  batchSize: 200,
+  batches: 25000,
+  rows: 5000000 }
 
 ```
 

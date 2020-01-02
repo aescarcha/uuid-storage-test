@@ -10,8 +10,8 @@ const conn = {
 };
 
 const config = {
-    batchSize: 50,
-    loopLimit: 50000
+    batchSize: 200,
+    loopLimit: 25000
 };
 
 const connection = mysql.createConnection(conn);
