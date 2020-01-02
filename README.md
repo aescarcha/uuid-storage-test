@@ -49,7 +49,7 @@ Rows: Total rows inserted
 
 ```
 
-####Mysql 5.6:
+#### Mysql 5.6:
 
 ```
 Uuid result: { 
@@ -81,7 +81,7 @@ Numeric result: {
 
 ```
 
-####Mysql 8.0.18:
+#### Mysql 8.0.18:
 
 ```
 Uuid result: { 
@@ -118,6 +118,6 @@ Numeric result: {
 
 Reading the comments on https://mysqlserverteam.com/mysql-8-0-uuid-support/, 
 it looks like using those function the performance would be the same as using
-numbers, the main problem is that no ORM handles the crappy MYSQL uuid functions,
+numbers, the main problem is that no ORM handles the MYSQL uuid functions,
 and the MySQL team answered there saying they may implement it as a Data Type in the future.
 
